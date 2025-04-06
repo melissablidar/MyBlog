@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soulsborne Blog</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="animated-title">Soulsborne Blog</h1>
+    <p>Exploring the dark worlds and ruthless challenges of Dark Souls, Bloodborne, and Elden Ring!</p>
+  </header>
+
+  <nav class="navbar">
+    <div class="nav-toggle" onclick="toggleMenu()">☰</div>
+    <ul id="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="form.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="articles">
+    <article>
+      <img src="images/dark-souls.jpg" alt="Dark Souls" />
+      <h2>How Dark Souls Redefined Difficulty in Gaming</h2>
+      <p>A game that changed the industry with its challenging mechanics and captivating progression system.</p>
+      <a href="#">Read more</a>
+    </article>
+    <article>
+      <img src="images/elden-ring.jpg" alt="Elden Ring" />
+      <h2>Elden Ring - The Best Open-World in a Soulsborne Game?</h2>
+      <p>Exploring the secrets, locations, and bosses that make Elden Ring a masterpiece.</p>
+      <a href="#">Read more</a>
+    </article>
+    <article>
+      <img src="images/bloodborne.jpg" alt="Bloodborne" />
+      <h2>Bloodborne and Its Unique Gothic Atmosphere</h2>
+      <p>A Victorian horror filled with monsters and mysteries. What makes Bloodborne so special?</p>
+      <a href="#">Read more</a>
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Soulsborne Blog | Praise the Sun!</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav-menu").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
